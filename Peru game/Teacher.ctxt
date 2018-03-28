@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Teacher
+comment0.text=\n\ Sample\ player\ for\ school\ based\ text\ adventure\ game.\n\ @author\ Sean\ Stern\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=int\ getHealth()
+comment2.params=delta
+comment2.target=void\ changeHealth(int)
+comment3.params=
+comment3.target=Inventory\ getInventory()
+numComments=4

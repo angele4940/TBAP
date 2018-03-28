@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TestFiniteItem
+comment0.text=\n\ The\ test\ class\ TestFiniteItem.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ testFailingConstructor()
+comment2.params=
+comment2.target=void\ testGetCount()
+comment3.params=
+comment3.target=void\ testUse()
+comment4.params=
+comment4.target=void\ testFailingOverUse()
+comment5.params=
+comment5.target=void\ testFailingNegativeUse()
+comment6.params=
+comment6.target=void\ testFailingZeroUse()
+comment7.params=
+comment7.target=void\ testCombine()
+comment8.params=
+comment8.target=void\ testFailingWrongNameCombine()
+comment9.params=
+comment9.target=void\ testFailingWrongDescriptionCombine()
+numComments=10

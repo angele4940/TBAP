@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=SimpleEngine
+comment0.text=\n\ Implementaiton\ of\ a\ simple\ engine\ for\ a\ text\ adventure\ game\ that\ relies\n\ on\ a\ linear\ search\ implementation\ to\ determine\ state\ transitions.\n\ @author\ Sean\ Stern\n\ @version\ 1.0\n
+comment1.params=g
+comment1.target=SimpleEngine(Game)
+comment1.text=\n\ Constructor\n\n\ @param\ game\ The\ game\ that\ the\ engine\ will\ play\n
+comment2.params=
+comment2.target=void\ start()
+comment3.params=
+comment3.target=boolean\ isGameDone()
+comment4.params=
+comment4.target=void\ goToNextState()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

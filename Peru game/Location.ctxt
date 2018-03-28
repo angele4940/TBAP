@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Location
+comment0.text=\n\ Location\ for\ text\ adventure\ game.\n\ @author\ Sean\ Stern\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\n\ Gets\ the\ name\ of\ the\ location\ in\ the\ text\ adventure\ game.\n\ Every\ location\ in\ a\ {@link\ Game}\ should\ have\ a\ unique\ name\ so\ that\ an\n\ {@link\ Engine}\ can\ properly\ track\ the\ state\ of\ the\ game.\n\n\ @return\ a\ unique\ identifier\ for\ each\ level\n
+comment2.params=p
+comment2.target=java.lang.String\ enter(Player)
+comment2.text=\n\ Causes\ the\ {@link\ Player}\ to\ enter\ the\ location\ and\ returns\n\ the\ name\ of\ the\ next\ game\ location.\n\n\ @param\ p\ the\ {@link\ Player}\ entering\ the\ location\n\ @return\ the\ name\ of\ the\ next\ location\n\ @throws\ InterruptedException\ if\ the\ game\ is\ paused\ and\ gets\ interrupted\n
+numComments=3

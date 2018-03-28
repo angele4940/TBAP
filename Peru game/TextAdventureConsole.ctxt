@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TextAdventureConsole
+comment0.text=\n\ A\ text\ adventure\ console\ that\ binds\ together\ an\ {@link\ Engine}\ and\ a\n\ {@link\ Game}.\ \n\ @author\ Sean\ Stern\n\ @version\ 1.0\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Creates\ a\ predetermined\ {@link\ Game},\ inserts\ it\ into\ an\ {@link\ Engine}\n\ and\ plays\ the\ game.\n\n\ @throws\ InterruptedException\ if\ the\ game\ is\ interrupted\ while\ paused\n
+numComments=2

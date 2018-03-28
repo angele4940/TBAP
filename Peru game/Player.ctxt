@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\n\ Player\ for\ text\ adventure\ game.\n\ @author\ Sean\ Stern\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=int\ getHealth()
+comment1.text=\n\ Gets\ the\ health\ of\ the\ player.\n\n\ @return\ the\ numeric\ health\ of\ the\ player\n
+comment2.params=delta
+comment2.target=void\ changeHealth(int)
+comment2.text=\n\ Changes\ the\ health\ of\ the\ player.\n\n\ @param\ delta\ the\ numeric\ change\ to\ the\ health\ of\ the\ player\n
+comment3.params=
+comment3.target=Inventory\ getInventory()
+comment3.text=\n\ Gets\ the\ player's\ inventory\n\n\ @return\ the\ player's\ {@link\ Inventory}\n
+numComments=4

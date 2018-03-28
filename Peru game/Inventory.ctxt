@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Inventory
+comment0.text=\n\ Inventory\ where\ a\ player\ can\ accumulate\ items\ for\ use\ in\ a\ text\ adventure\n\ @author\ Sean\ Stern\n\ @version\ 1.0\n
+comment1.params=i
+comment1.target=void\ addItem(Item)
+comment1.text=\n\ Adds\ an\ {@link\ Item}\ to\ the\ inventory\n\n\ @param\ i\ the\ {@link\ Item}\ to\ be\ added\ to\ the\ inventory\n
+comment2.params=itemName
+comment2.target=boolean\ hasItem(java.lang.String)
+comment2.text=\n\ Determines\ whether\ or\ not\ an\ {@link\ Item}\ with\ the\ itemName\ is\ in\ the\n\ inventory\n\n\ @param\ itemName\ the\ name\ of\ the\ item\n\ @return\ true\ if\ an\ item\ with\ itemName\ is\ in\ the\ inventory,\ false\n\ \ \ \ \ \ \ \ \ otherwise\n
+comment3.params=itemName
+comment3.target=Item\ getItem(java.lang.String)
+comment3.text=\n\ Gets\ an\ {@link\ Item}\ with\ itemName\ from\ the\ inventory,\ provided\ it\n\ exists\ in\ the\ inventory.\n\n\ @param\ itemName\ the\ name\ of\ the\ item\n\ @return\ an\ {@link\ Item}\ that\ has\ the\ corresponding\ itemName,\ null\ if\n\ \ \ \ \ \ \ \ \ no\ such\ {@link\ Item}\ exists\n
+numComments=4

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=SubwayPlatformMorning
+comment0.text=\n\ Locaiton\ in\ a\ school\ based\ text\ adventure\ game.\ Currently\ a\ skeleton.\n\ @author\ Sean\ Stern\n\ @version\ 0.0\n\ @see\ AdventureForSoftwareEngineering\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=p
+comment2.target=java.lang.String\ enter(Player)
+numComments=3

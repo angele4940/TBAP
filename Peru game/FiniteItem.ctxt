@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=FiniteItem
+comment0.text=\n\ Write\ a\ description\ of\ class\ FiniteItem\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=name\ description\ count
+comment1.target=FiniteItem(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Gets\ the\ name\ of\ the\ item\ in\ the\ text\ adventure\ game.\n\n\ @return\ the\ name\ of\ the\ item\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\n\ Gets\ the\ description\ of\ the\ item\ in\ the\ text\ adventure\ game.\n\n\ @return\ the\ description\ of\ the\ item\ \ \ \ \ \n
+comment4.params=
+comment4.target=int\ getCount()
+comment4.text=\n\ Gets\ the\ count\ of\ how\ many\ instances\ of\ the\ item\ there\ are.\ \n\ For\ example,\ a\ pack\ of\ gum\ item\ might\ have\ 5\ pieces\ of\ gum.\n\n\ @return\ the\ number\ of\ instances\ in\ this\ item\n
+comment5.params=positiveNum
+comment5.target=void\ use(int)
+comment5.text=\n\ Uses\ a\ positive\ number\ of\ instances\ of\ the\ item.\ \n\n\ @param\ positiveNum\ a\ positive\ number\ of\ items\ to\ use\n\ @throws\ IllegalArgumentException\ if\ positive\ num\ is\ non-positive\ OR\n\ \ \ \ \ \ \ \ \ exceeds\ the\ count\ of\ instances\ of\ the\ item\n
+comment6.params=sameKind
+comment6.target=void\ combine(Item)
+numComments=7

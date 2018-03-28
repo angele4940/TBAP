@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ApartmentWakeUp
+comment0.text=\n\ Starting\ location\ for\ a\ school\ based\ text\ adventure\ game\n\ @author\ Sean\ Stern\n\ @version\ 1.0\n\ @see\ AdventureForSoftwareEngineering\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=p
+comment2.target=java.lang.String\ enter(Player)
+comment3.params=p
+comment3.target=void\ decideToGetUp(Player)
+comment4.params=p
+comment4.target=void\ snooze(Player)
+comment5.params=p
+comment5.target=void\ dismiss(Player)
+numComments=6

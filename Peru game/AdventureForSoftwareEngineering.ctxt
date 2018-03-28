@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=AdventureForSoftwareEngineering
+comment0.text=\n\ Implementaiton\ of\ text\ adventure\ game\ involving\ a\ first\ year\ teacher\n\ starting\ at\ a\ new\ school\ teaching\ CS.\n\ @author\ Sean\ Stern\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=java.util.List\ getLocations()
+comment2.params=
+comment2.target=Player\ getPlayer()
+numComments=3

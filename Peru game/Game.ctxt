@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\n\ Representation\ of\ a\ text\ adventure\ game.\ Games\ are\ given\ to\ an\n\ {@link\ Engine}\ in\ order\ to\ be\ played.\n\ @author\ Sean\ Stern\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=java.util.List\ getLocations()
+comment1.text=\n\ Gets\ a\ list\ of\ all\ the\ the\ locations\ in\ the\ game\n\n\ @return\ a\ list\ of\ all\ the\ locations\ in\ the\ game\n\ @see\ Location\n
+comment2.params=
+comment2.target=Player\ getPlayer()
+comment2.text=\n\ Get\ the\ player\ for\ the\ game\n\n\ @return\ a\ player\ for\ the\ game\n\ @see\ Player\n
+numComments=3
