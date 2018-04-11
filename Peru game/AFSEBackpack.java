@@ -8,11 +8,10 @@ import java.util.ArrayList;
  */
 public class AFSEBackpack implements Inventory
 {
-    private List<Item> slots;
-    
+    private List<Item> pockets = new ArrayList<>();
     public AFSEBackpack()
     {
-        slots = new ArrayList<Item>();
+        List<Item> Backpack = pockets;
     }
     
     /**
@@ -22,17 +21,13 @@ public class AFSEBackpack implements Inventory
      */
     public void addItem(Item i)
     {
-        cleanUp();
-        for(int idx = 0; idx < slots.size(); idx++)
-        {
-            Item itemInSlot = slots.get(idx);
-            if(itemInSlot.getName().equals(i.getName()))
+        for(int interval = 0; interval < pockets.size(); interval++){
+            if(pockets.get(interval).getName().equals(i.getName()) && pockets.get(interval).getDescription().equals(i.getDescription()))
             {
-                itemInSlot.combine(i);
-                return;
+                pockets.get(interval).combine(i);
             }
         }
-        slots.add(i);
+        pockets.add(i);
     }
 
     /**
@@ -45,10 +40,9 @@ public class AFSEBackpack implements Inventory
      */
     public boolean hasItem(String itemName)
     {
-        cleanUp();
-        for(int i = 0; i < slots.size(); i++)
+        for(int i = 0; i < pockets.size(); i++)
         {
-            if(slots.get(i).getName().equals(itemName))
+            if(pockets.get(i).getName().equals(itemName) && pockets.get(i).getCount() > 0)
             {
                 return true;
             }
@@ -61,34 +55,18 @@ public class AFSEBackpack implements Inventory
      * exists in the inventory.
      *
      * @param itemName the name of the item
-     * @return an {@link Item} that has the corresponding itemNam
-     * 
-     * @throws IllegalArgumentException if no item that matches itemName
+     * @return an {@link Item} that has the corresponding itemName, null if
+     *         no such {@link Item} exists
      */
-    public Item getItem(String itemName) throws IllegalArgumentException
+    public Item getItem(String itemName)
     {
-        cleanUp();
-        for(int i = 0; i < slots.size(); i++)
+        for(int i = 0; i < pockets.size(); i++)
         {
-            if(slots.get(i).getName().equals(itemName))
+            if(pockets.get(i).getName().equals(itemName))
             {
-                return slots.get(i);
+                return pockets.get(i);
             }
         }
-        throw new IllegalArgumentException(itemName + " does not exist.");
-    }
-    
-    private void cleanUp()
-    {
-        
-        for(int i = 0; i < slots.size(); i++)
-        {
-            if(slots.get(i).getCount() <= 0)
-            {
-                slots.remove(i);
-                i--;
-            }
-        }
-        
+        throw new IllegalArgumentException("String");
     }
 }

@@ -15,7 +15,7 @@ public class ApartmentWakeUp implements Location {
     @Override
     public String getName(){
         // Location name will match class name for convenience
-        return "ApartmentWakeUp";
+        return "Airport";
     }
 
     @Override
